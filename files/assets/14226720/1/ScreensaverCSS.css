@@ -1,0 +1,79 @@
+.screensaver-wrapper-active {
+	opacity: 0.5 !important;
+}
+
+.screensaver-wrapper{
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	position:relative;
+	overflow:hidden;
+	background-color:navy;
+	opacity:0;
+	
+}
+
+
+
+.screensaver-scrollable{
+	position:relative;
+	overflow:hidden;
+}
+
+.screensaver-container{
+ background-color:transparent;
+  display: grid;
+
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  justify-items: center;
+  grid-gap: 0px 0px;
+  display: -ms-grid;
+  -ms-grid-columns: 100%;
+  -ms-grid-rows: 33.3% 33.3% 33.3%;
+  grid-template-areas: "title" "logo"  "subtitle" ;
+}
+
+.screensaver-title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ grid-area:title;
+}
+
+.screensaver-subtitle{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   grid-area:subtitle;
+}
+
+.screensaver-logo{
+ grid-area:logo;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.screensaver-logo-img{
+ background-size:contain;
+ max-height: 100%;
+ max-width: 100%;
+ 
+
+}
+
+.screensaver-subtitle-text{
+	color:white;
+	font-size:24px;
+	
+}
+
+.screensaver-title-text{
+	color:white;
+	font-size:48px;
+	
+}
+

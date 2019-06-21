@@ -1,0 +1,27 @@
+.menubar-container-root{
+    background-color:white;
+    min-width:75px;
+    
+    
+    /*
+    -webkit-box-shadow:25px 0px 25px  rgba(0, 0, 0, 0.05);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ 
+   -moz-box-shadow:   25px 0px 25px  rgba(0, 0, 0, 0.05);  /* Firefox 3.5 - 3.6 
+    box-shadow:         25px 0px 25px  rgba(0, 0, 0, 0.05); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 
+    */
+}
+
+.menubar-button-root{
+    width:2.5em;
+    height:2.5em;
+    margin:0 auto;
+    position:relative;
+    top:25%;
+    
+}
+
+.menubar-button-root img{
+    width:2.5em;
+    height:2.5em;
+    
+}
+

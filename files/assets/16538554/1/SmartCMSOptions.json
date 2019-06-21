@@ -1,0 +1,21 @@
+{
+  "ProjectName" : "Thermasol-Shower-",
+  "ProjectID": "eb12ca9a-2428-4647-8700-bacc1d5fc4de",
+  "Host": "https://smartcmscache.azurewebsites.net",
+  "EmailHost": "https://smartcms.azurewebsites.net",
+  "ProjectEnvironment": "1",
+  "Version": "2.0",
+  "DatatableNames": [
+    "POI",
+    "Styles",
+    "Finishes",
+    "Music",
+    "Packages",
+    "Colors",
+    "Videos",
+    "Online Dealers",
+    "Local Dealers",
+    "Email Status"
+  ],
+  "EnableCaching": "true"
+}

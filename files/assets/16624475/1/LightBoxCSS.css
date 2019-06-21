@@ -1,0 +1,108 @@
+.lightbox-root{
+   width:100vw;
+   height:100vh;
+   z-index:30000;
+   position:fixed;
+   pointer-events:all;
+}
+
+.lightbox-container{
+    position: absolute;
+    width:auto;
+    
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */    /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */ /* NEW - Chrome */
+	display: flex;
+    -moz-flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -moz-justify-content:space-between;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    
+      pointer-events:all;
+    height:auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);  
+    -ms-transform: translate(-50%, -50%);  
+        transform: translate(-50%, -50%);  
+    
+     -webkit-box-shadow: 6px 18px 30px -7px rgba(0,0,0,0.3);
+    box-shadow: 6px 18px 30px -7px rgba(0,0,0,0.3);
+}
+
+
+.lightbox-message-container{
+   
+
+    position:relative;
+ 
+    width:92.5%;
+    word-break:break-word;
+    font-size:14px;
+    font-weight:400;
+    letter-spacing:0px;
+   
+    
+
+    left : 0;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.lightbox-title-container{
+    position:relative;
+    display:block;
+    
+    
+    width:100%;
+    height:50px;
+    
+}
+
+
+.lightbox-title-label{
+    text-align:left;
+    position:relative;
+    width:100%;
+    line-height:50px;
+     padding-left:20px;
+   
+    font-size:16px;
+    font-weight:700;
+    color:white;
+    letter-spacing:0px;
+}
+
+.lightbox-actionbutton-container{
+    position:relative;
+    display:block;
+ 
+    width:93.2%;
+    left:3.4%;
+    height:35px;
+    line-height:35px;
+    margin-bottom:3.4%;
+    
+}
+
+.lightbox-actionbutton-label{
+    text-align:center;
+    position:relative;
+    width:100%;
+    line-height:35px;
+    border-radius:5px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    font-weight:300;
+    font-size:14px;
+    letter-spacing:0px;
+    
+}

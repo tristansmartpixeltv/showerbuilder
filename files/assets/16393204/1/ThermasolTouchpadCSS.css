@@ -1,0 +1,672 @@
+.thermasoltouchpad-root{
+    position:absolute;
+    background-image:url('https://drive.google.com/uc?id=1nxXxu7jWgJ1KbOIc8ROIVcg_D5EzlaTs');
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    display:flex;
+    flex-direction:row;
+ 
+    width:600px !important;
+    height:600px !important;
+    right:50vw !important;
+    left:80vw !important;
+    margin-left:-300px;
+    top:50vh;
+    margin-top:-200px;
+ 
+}
+
+.thermasoltouchpad-container{
+    position:relative;
+    background-color:black;
+   
+    width:90%;
+    
+    top:5%;
+    height:55%;
+ 
+}
+
+.thermasoltouchpad-footer-slider{
+    width:100px !important;
+}
+
+.thermasoltouchpad-row{
+   position:relative;
+   background-color:transparent;
+   color : white;
+   width:100%;
+   height:100%;
+   margin:0;
+   padding:0;
+   display: flex;
+   flex-direction:row;
+   align-items:center;
+    justify-content:center;
+   
+    
+    
+    
+}
+
+.thermasoltouchpad-header{
+    position:relative;
+    height:20%;
+    
+}
+
+.thermasoltouchpad-content{
+    position:relative;
+    display:block;
+   
+    height:65%;
+}
+
+.thermasoltouchpad-footer{
+    position:relative;
+    display:flex;
+    left:0%;
+    justify-content:space-around;
+    width:100% !important;
+    height:15%;
+}
+
+
+
+.thermasoltouchpad-menubutton{
+   
+   background-repeat:no-repeat;
+   background-size:contain;
+   position:relative;
+   height:36px;
+   width:36px;
+   
+   
+    border-width:0;
+    border-style:none;
+  
+    color:transparent;
+    margin-right:12%;
+    padding:0;
+    transition:all 0.2s ease;
+}
+
+.thermasoltouchpad-content-menu{
+    display:flex;
+    position:relative;
+    width:100%;
+    height:100%;
+
+   
+}
+
+
+
+.thermasoltouchpad-content-menu-video-container-col{
+    display:inline-block;
+    width:45px;
+    height:45px;
+    margin-left:15px;
+    margin-top:10px;
+    border:0.5px black solid;
+    background-size:contain;
+    background-position:center center;
+}
+
+
+.thermasoltouchpad-content-menu-disabled{
+    display:none !important;
+}
+
+.thermasoltouchpad-steam-section{
+    display:flex;
+
+    flex-direction:column;
+    
+    
+    width:100%;
+    height:80%;
+   
+    
+    border-radius:50%;
+    background-image:url('https://drive.google.com/uc?id=1k3_tBGFUqwzKmISNXaF83DCXQ_i3mpo1');
+    text-align:center;
+    vertical-align:middle;
+    line-height:1em;
+    font-size:1em;
+    
+    
+}
+
+.thermasoltouchpad-content-menu-music-section{
+    position:relative;
+    
+    width:50%;
+    height:100%;
+   
+}
+
+.thermasoltouchpad-content-menu-music-section-source{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+
+
+
+
+
+.thermasoltouchpad-content-menu-music-section-source-section{
+   
+    height:30px;
+    width:200px;
+    margin-top:5px;
+    margin-bottom:5px;
+    position:relative;
+    
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-player{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    height:80px;
+    width:250px;
+    align-items:center;
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-player-title{
+    text-align:center;
+    font-size:12px;
+    width:100%;
+    font-weight:900;
+    letter-spacing:0px;
+   
+   
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-player-button{ 
+    position:relative;
+    width:18%;
+    height:100%;
+   
+    margin-right:10px;
+    transition : all 0.1s ease;
+    background-repeat:no-repeat;
+    background-position:center center;
+    
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-player-button:hover{ 
+    
+    transition : all 0.1s ease;
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-audiosource{
+    background-color:transparent;
+    color:white;
+    font-size:12px;
+    text-align:center;
+       font-weight:900;
+    letter-spacing:0px;
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-aux{
+    background-color:transparent;
+    background-image:url('https://drive.google.com/uc?id=157EAoefTNBknVCaagGA-PK6dto8-MPMQ');
+    background-repeat:no-repeat;
+    background-size:contain;
+    color:black;
+}
+
+
+.thermasoltouchpad-content-menu-music-section-source-section-aux:hover{
+    background-color:rgb(243, 78, 46);
+    transition:0.2s all ease;
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-bluetooth{
+    background-color:transparent;
+    background-image:url('https://drive.google.com/uc?id=1rZ-zlPgF0Ust58jGa_pZHLsHMgFVQg1q');
+    background-repeat:no-repeat;
+    background-size:contain;
+    color:black;
+}
+
+.thermasoltouchpad-content-menu-music-section-source-section-bluetooth:hover{
+    background-color:rgb(243, 78, 46);
+    transition:0.2s all ease;
+}
+
+
+.thermasoltouchpad-content-menu-music-section-volume{
+     display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.thermasoltouchpad-content-menu-music-section-volume-section{
+    background-color:transparent;
+    height:12.5px;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.section-volume-title{
+    background-color:transparent;
+    color:white;
+    font-size:12px;
+    text-align:center;
+       font-weight:900;
+    letter-spacing:0px;
+}
+
+.section-volume-slider{
+    
+    background:orange;
+    color:white;
+    font-size:12px;
+    line-height:12px;
+    text-align:center;
+    width:68%;
+    top:3px;
+}
+
+.ui-slider-range{
+    background:orange;
+}
+
+.section-volume-slider .ui-slider-handle{
+    margin-top:-4px;
+}
+
+.ui-widget-content{
+    background:orange !important;
+    border:1px solid orange;
+   
+    
+}
+
+.section-volume-separator{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:100%;
+    align-items:center;
+    align-self:center;
+    height:5px;
+    margin-top:10px;
+ 
+}
+
+.section-volume-separator-cell{
+    width:33%;
+    text-align:center;
+    height:5px;
+    line-height:5px;
+    font-size:10px;
+}
+
+.section-volume-separator-cell-title{
+    font-size:14px;
+    height:10px;
+}
+
+
+.thermasoltouchpad-steam-section span{
+    position: absolute;
+    top: 50%;
+    font-size:1em; 
+}
+
+
+
+.thermasoltouchpad-content-menu-color{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    
+    align-items:center;
+    position:relative;
+}
+
+.thermasoltouchpad-content-color-section{
+ 
+    width:33%;
+    height:100%;
+    margin-left:0.3%;
+    position:relative;
+}
+
+.section-color-palette{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    background-position:17.5px center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-image:url('https://drive.google.com/uc?id=1DS9mGCNwvop3zNigwvwdImW7bVozrjC3');
+}
+
+.section-color-palette-cell{
+    height:33%;
+    margin-top:0.3%;
+    width:50%;
+
+}
+
+.section-color-palette-cell-op1{
+    
+}
+
+.section-color-palette-cell-op2{
+}
+
+.section-color-palette-cell-op3{
+}
+
+.section-color-body{
+    width:25%;
+    margin-right:4%;
+}
+
+
+.section-color-body-main{
+    background-position:35% center;
+    background-size:contain; 
+    background-repeat:no-repeat;
+    background-image:url('https://drive.google.com/uc?id=1DZiMeAyRIy1DtwXET1n3Btxv59iRAG6W');
+    height:100%;
+}
+
+.section-color-body-cell{
+    height:10%;
+    width:100%;
+    
+    display:flex;
+    
+}
+
+.section-color-body-cell-bar-right{
+  width:55px;
+  margin-left:75px;
+  background-color:blue;
+  height:3px;
+  display:flex;
+  align-items:center;
+  margin-top:8%;
+  justify-content:flex-end;
+    
+}
+
+.section-color-body-cell-circle-right{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:yellow;
+    transition:0.2s all ease;
+}
+
+.section-color-body-cell-bar-left{
+    
+  width:55px;
+  margin-left:-20px;
+  background-color:blue;
+  height:3px;
+  display:flex;
+  align-items:center;
+  margin-top:8%;
+  justify-content:flex-start;
+}
+
+.section-color-body-cell-circle-left{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:yellow;
+    transition:0.2s all ease;
+}
+
+.section-color-body-cell-circle-left:hover{
+   opacity:0.75;
+   transition:0.2s all ease;
+}
+
+.section-color-body-cell-circle-right:hover{
+   opacity:0.75;
+   transition:0.2s all ease;
+}
+
+
+.section-color-body-cell-empty{
+   background-color:transparent;
+}
+
+
+.section-color-data{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    width:33%;
+}
+
+.section-color-data-cell{
+    height:36px;
+    width:80%;
+    
+   text-align:left;
+   
+}
+
+.section-color-data-colorTitle{
+    color:purple;
+    font-size:32px;
+    margin-bottom:8px;
+    letter-spacing:0px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+   
+    
+}
+
+.section-color-data-subTitle{
+    color:white;
+    font-size:16px;
+    letter-spacing:0px;
+    
+    line-height:16px;
+}
+
+.section-color-data-description{
+    color:white;
+    letter-spacing:0px;
+    font-size:12px;
+ 
+}
+
+
+.thermasoltouchpad-content-menu-video{
+
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    position:relative;
+}
+
+.thermasoltouchpad-content-menu-video-cell{
+   width:130px;
+   height:50px;
+   margin-top:1%;
+   margin-left:5%;
+    
+}
+
+.thermasoltouchpad-footer-element{
+    
+    justify-content : space-between;
+    left:0px;
+    width:auto;
+    height:20px;
+    font-size:0.8em;
+}
+
+.rs-container{
+    background-image:url("https://drive.google.com/uc?id=1k3_tBGFUqwzKmISNXaF83DCXQ_i3mpo1");
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+}
+
+.thermasoltouchpad-footer-element-icon{
+    background-image:url('https://drive.google.com/uc?id=1yhCwLrcsLxfxBkgbPqrBv4cnvPmMhBAa');
+    background-size:contain;
+    background-position:center center;
+    background-repeat:no-repeat;
+    width:25px !important;
+    height:15px !important;
+    
+    background-color:white;
+}
+
+.thermasoltouchpad-footer-element-timer{
+    width:auto !important;
+}
+
+
+.thermasoltouchpad-user-text{
+    color:#F35F2E;
+/*    align: right;*/
+    font-weight: bold;
+    
+    display: flex;
+    flex-flow: row wrap;   
+}
+
+.thermasoltouchpad-audio-text{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 10px;
+    line-height:2px;
+    width:130px;
+    text-align: center;
+}
+
+.thermasoltouchpad-audio-text-left{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 12px;
+    line-height:2px;
+    text-align: center;
+}
+
+/*
+.thermasoltouchpad-footer-left-icon-power{
+    background-image:url('https://drive.google.com/open?id=1jp1poLn7YGQ9MTDgx6nyIcxxXXh4BqmB');
+    background-size:contain;
+    background-position:center center;
+    background-repeat:no-repeat;
+    width:25px !important;
+    height:15px !important;
+}
+
+.thermasoltouchpad-footer-left-icon-settings{
+    background-image:url('https://drive.google.com/a/smartpixel.tv/file/d/1H6Pc2wxvODIb2oG-qOnkj6O-Z9XhE28i/view?usp=sharing');
+    background-size:contain;
+    background-position:center center;
+    background-repeat:no-repeat;
+    width:25px !important;
+    height:15px !important;
+}
+*/
+
+.thermasoltouchpad-footer-icon{
+    background-size:contain;
+    background-position:center center;
+    background-repeat:no-repeat;
+    width:25px !important;
+    height:25px !important;
+}
+
+.thermasoltouchpad-content-menu-steam{
+    align:center;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.thermasoltouchpad-audio-icon{
+    width:150px !important;
+    height:22px !important;
+}
+
+.thermasoltouchpad-numbers-icon{
+    width:150px !important;
+    height:8px !important;
+}
+
+.thermasoltouchpad-lines-icon{
+    width:150px !important;
+    height:8px !important;
+}
+
+.thermasoltouchpad-content-body-icons-circle{
+    width:35px !important;
+    height:140px !important;
+}
+
+.thermasoltouchpad-content-body{
+    width:80px !important;
+    height:140px !important;
+}
+
+.thermasoltouchpad-videos{
+    width:85px !important;
+    height:40px !important;
+}
+
+#slide{
+    display: none;
+    position: absolute;
+    float: center;
+    width: 100px;
+    height: 14px;
+    padding : 2px;
+    z-index: 2;
+    
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+}
+
+.thermasoltouchpad-audio-slider{
+    width: 230px;
+    height: 12px;
+    line-height:12px; 
+    margin-bottom: 10px;
+}
+.thermasoltouchpad-footer-slider{
+    width: 100px;
+    height: 12px;
+    line-height:12px; 
+}
+
+.thermasoltouchpad-nopadding{
+    padding: 0px;
+}

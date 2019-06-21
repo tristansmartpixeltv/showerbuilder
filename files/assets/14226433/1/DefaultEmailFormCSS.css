@@ -1,0 +1,128 @@
+.emailmanager-root{
+   width:100vw;
+   height:100vh;
+   top:125px;
+   z-index:19000;
+   position:fixed;
+
+}
+
+.emailmanager-title-container{
+    position:relative;
+    display:block;
+    background-color:orange;
+    width:100%;
+    height:50px;
+    
+}
+
+
+.emailmanager-title-label{
+    text-align:center;
+    position:relative;
+    width:100%;
+    line-height:50px;
+     padding-left:20px;
+    padding-right:20px;
+    font-size:16px;
+    font-weight:700;
+    color:white;
+}
+
+
+.emailmanager-container{
+    position: absolute;
+    width:auto;
+   
+    height:auto;
+    top: 17.5%;
+    left: 50%;
+   
+    background-color:white;
+    -webkit-transform: translate(-50%, 0%);  
+    transform: translate(-50%, 0%);  
+}
+
+@media (max-height:768px) {
+    
+.emailmanager-container{
+    position: absolute;
+    width:auto;
+   
+    height:auto;
+    top: 0.0%;
+    left: 50%;
+   
+    background-color:white;
+    -webkit-transform: translate(-50%, 0%);  
+    transform: translate(-50%, 0%);  
+}
+   
+}
+
+
+
+.emailmanager-form-input-label{
+    display:block;
+    margin-top:20px;
+    padding-left:25px;
+    width:90%;
+    left:5%;
+    text-align:left;
+    font-size:16px;
+    font-weight:500;
+    background-color:transparent;
+   
+}
+
+.emailmanager-form-input{
+    display:block;
+    position:relative;
+    width:90%;
+    left:5%;
+    padding-left:10px;
+    height:40px;
+    line-height:40px;
+    background-color:#F1F0F5;
+    margin-top:20px;
+    margin-bottom:20px;
+   
+}
+
+.emailmanager-form-button{
+    display:inline-block;
+    position:relative;
+    width:43%;
+    height:42px;
+    margin-top:25px;
+    left:2.5%;
+    margin-left:2.5%;
+    margin-bottom:25px;
+    line-height:39px;
+    text-align:center;
+    color:white;
+    background-color:#F1F0F5;
+    border-radius:5px;
+    font-weight:400;
+    transition:0.1s all ease;
+    
+}
+
+.email-form-button-cancel:hover{
+    background-color:rgba(243, 60, 46,1);
+    color:white;
+    transition:0.1s all ease;
+    
+}
+
+.email-form-button-send:hover{
+   opacity:0.9;
+   transition:0.1s all ease;
+}
+
+
+
+.email-form-button-cancel{
+   
+    color:#262626;
+}

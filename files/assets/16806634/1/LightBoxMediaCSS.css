@@ -1,0 +1,196 @@
+.lightbox-media-root{
+     display: -webkit-box; 
+	display: -moz-box;    
+	display: -ms-flexbox;  
+	display: -webkit-flex; 
+	display: flex;         
+    -webkit-flex-direction:column;
+    -moz-flex-direction:column;
+    flex-direction:column;
+    
+    -webkit-justify-content:space-between;
+    -moz-justify-content:space-between;
+    justify-content:space-between;
+    
+       
+}
+
+
+.lightbox-section-video-root{
+
+}
+
+.lightbox-section-image-root{
+    display:block;
+    width:400px;
+
+}
+
+.lightbox-media-title-container{
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex;         /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    -webkit-flex-direction:row;
+    -moz-flex-direction:row;
+    flex-direction:row;
+    
+}
+
+.lightbox-actionbutton-media-container{
+    display: -webkit-box;
+	display: -moz-box;  
+	display: -ms-flexbox; 
+	display: -webkit-flex; 
+	display: flex;         
+     -webkit-flex-direction:row;
+    -moz-flex-direction:row;
+    flex-direction:row;
+  
+    -moz-justify-content:space-around;
+    -webkit-justify-content:space-around;
+     justify-content:space-around;
+    background-color:#f1f0f5;
+   
+}
+
+.lightbox-media-close{
+    width:20px;
+    height:20px;
+  
+    position:relative;
+    float:right;
+    top:-35px;
+    right:19px;
+    background-position:center;
+    background-size:contain;
+}
+
+
+.lightbox-video-content{
+    width:60%;
+    height:200px;
+
+    align-self:center;
+    position:relative;
+    display:inline-block;
+}
+
+
+.lightbox-image-content{
+    width:60%;
+    height:200px;
+    align-self:center;
+   
+    position:relative;
+
+    display:inline-block;
+ 
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+
+
+
+
+.lightbox-audio-content-player{
+    position:relative;
+    transform:scale(0.8,0.8);
+    width:60%;
+    display:inline-block;
+   align-self:center;
+   
+   
+    
+}
+
+.lightbox-section-button{
+    width:30px;
+    height:30px;
+        transition:0.2s all ease;
+   
+    display:inline-block;
+    vertical-align:middle;
+    background-size:contain;
+    background-position:center;
+    position:relative;
+    align-self:center;
+    
+    
+}
+
+.lightbox-section-button:hover{
+    opacity:0.5;
+    transition:0.2s all ease;
+}
+
+
+.lightbox-section-root{
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex;         /* NEW, Spec - Opera 12.1, Firefox 20+ */
+     -webkit-flex-direction:row;
+    -moz-flex-direction:row;
+     flex-direction:row;
+     -webkit-justify-content:space-around;
+    -moz-justify-content:space-around;
+    justify-content:space-around;
+    -webkit-justify-self:center;
+    -mox-justify-self:center;
+    justify-self:center;
+    min-width:425px;
+    min-height:300px;
+    pointer-events:all;
+}
+
+.lightbox-section-sound-label{
+    position:absolute;
+    display:block;
+    margin: 0 auto;
+    margin-top:75px;
+    margin-bottom:50px;
+    text-align:center;
+    font-weight:500;
+    font-size:16px;
+    width:100%;
+}
+
+
+
+.lightbox-section-container{
+    width:90%;
+    display:table;
+    height:50px;
+    margin:20px;
+    background-color:transparent;
+}
+
+.lightbox-section-container-button{
+    
+    
+    background-color:transparent;
+    position:relative;
+    width:36px;
+    height:36px;
+    margin-top:10px;
+    margin-bottom:10px;
+   
+      transition:0.2 background-color ease;
+    background-image:url('https://drive.google.com/uc?id=1s6fGQpyo2DodGdG-mJbHIlWudM8p03Vd');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    transition:0.4s all ease;
+}
+
+.lightbox-section-container-button:hover{
+    
+    transition:0.4s all ease;
+    transform:scale(1.1,1.1);
+}

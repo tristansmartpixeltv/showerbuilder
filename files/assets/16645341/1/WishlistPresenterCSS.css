@@ -1,0 +1,47 @@
+.thermasol-wishlistpresenter-root{
+    width:396px;
+    height:100px;
+    background-color:#F6F7FC;
+    position:fixed;
+    top:125px;
+    z-index:19000;
+  
+    -webkit-box-shadow: 6px 18px 30px -7px rgba(0,0,0,0.1);
+    -moz-box-shadow: 6px 18px 30px -7px rgba(0,0,0,0.1);
+    box-shadow: 6px 18px 30px -7px rgba(0,0,0,0.1); 
+    
+   
+}
+
+.thermasol-wishlistpresenter-icon{
+    color:white;
+    position:relative;
+    width:40px;
+    text-align:center;
+    height:40px;
+    line-height:50px;
+    margin-left:115px;
+    margin-right:0px;
+   
+    top:25px;
+    display:inline-block;
+    background-image:url('https://drive.google.com/uc?id=1s6fGQpyo2DodGdG-mJbHIlWudM8p03Vd');
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.thermasol-wishlistpresenter-title{
+    color:gray;
+    position:relative;
+    width:auto;
+    padding-left:10px;
+    padding-right:20px;
+    text-align:left;
+    height:50%;
+    line-height:50px;
+    font-size:0.85em;
+    font-weight:700;
+   top:25px;
+    display:inline-block;
+    vertical-align:top;
+}
