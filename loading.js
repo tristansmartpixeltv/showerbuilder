@@ -62,6 +62,10 @@ pc.script.createLoadingScreen(function (app) {
         container.appendChild(textContainer);
            
         addJQuery();
+         
+       window.console.log = function(){};  
+       window.console.error = function(){};
+       window.console.warn = function(){};  
     };
     
     
