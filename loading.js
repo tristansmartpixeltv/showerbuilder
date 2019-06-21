@@ -66,6 +66,7 @@ pc.script.createLoadingScreen(function (app) {
        window.console.log = function(){};  
        window.console.error = function(){};
        window.console.warn = function(){};  
+       window.console.trace = function(){};
     };
     
     
@@ -212,7 +213,7 @@ pc.script.createLoadingScreen(function (app) {
         }
        
 
-        debugger;
+     
         var JSONAsset = app.assets.find('SmartCMSOptions','json');
         var SmartCMSAsset = app.assets.find("SmartCMS.js",'script');
         
